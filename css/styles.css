@@ -6,7 +6,7 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/Roboto/Roboto/roboto-v20-latin_cyrillic-regular.eot");
+  src: url("../fonts/Roboto/roboto-v20-latin_cyrillic-regular.eot");
   src: local("Roboto"), local("Roboto-Regular"),
     url("../fonts/Roboto/roboto-v20-latin_cyrillic-regular.eot?#iefix")
       format("embedded-opentype"),
@@ -62,4 +62,21 @@
     url("../fonts/Roboto/roboto-v20-latin_cyrillic-900.ttf") format("truetype"),
     url("../fonts/Roboto/roboto-v20-latin_cyrillic-900.svg#Roboto")
       format("svg");
+}
+
+:root {
+  --main-text-cl: #757575;
+  --accent-cl: #2196f3;
+  --black: #212121;
+  --white: #ffffff;
+  --dark-bg: #2f303a;
+  --light-bg: #f5f4fa;
+}
+
+body {
+  font-family: "Roboto" sans-serif;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--main-text-cl);
 }
