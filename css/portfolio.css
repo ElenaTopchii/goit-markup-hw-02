@@ -133,6 +133,14 @@ address {
   color: var(--black);
 }
 
+.mail-link,
+.tel-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+}
+
 .project-title {
   font-weight: 700;
   font-size: 18px;
@@ -156,7 +164,8 @@ address {
   color: var(--white);
 }
 
-.dark-bg .mail,
-.dark-bg .tel {
+.dark-bg .mail-link,
+.dark-bg .tel-link {
+  font-weight: 400;
   color: rgba(255, 255, 255, 0.6);
 }
